@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # my apps
     'myapp',
+    'widget_tweaks',  # if you're using this for form styling
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
+LOGIN_REDIRECT_URL = '/home/'
